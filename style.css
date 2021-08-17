@@ -1,0 +1,99 @@
+.attribution { 
+    font-size: 14px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: whitesmoke;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: hsl(257, 40%, 49%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: 'Open sans', sans-serif;
+    font-size: 1.3em;
+    color: white;
+}
+
+h1 {
+    font-family: 'popins', sans-serif;
+    margin-top: 60px;
+}
+
+p {
+    opacity: 0.8;
+}
+
+/* img {
+    max-width: 100%;
+} */
+
+.container {
+    margin: auto;
+    width: 1291px;
+    max-width: 100%;
+}
+
+.flex {
+    display: flex;
+}
+
+.mockup {
+    margin-right: 50px;
+}
+
+button {
+    background-color: white;
+    color: hsl(257, 40%, 49%);
+    padding: 20px 75px;
+    border-radius: 30px;
+    border: none;
+    font-size: 1em;
+    box-shadow: 0px 1px 1px black;
+}
+
+.socials {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px;
+}
+
+.socials i {
+    color: whitesmoke;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid white;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-top: 100px;
+}
+
+@media screen and (max-width: 768px) {
+    .flex {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    .socials {
+        justify-content: center;
+    }
+}
